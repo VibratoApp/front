@@ -1,4 +1,4 @@
-import { Image, StyleSheet, Platform } from 'react-native';
+import { Image, StyleSheet, Platform,Text } from 'react-native';
 
 import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
@@ -35,6 +35,12 @@ export default function HomeScreen() {
         <ThemedText>
           Tap the Explore tab to learn more about what's included in this starter app.
         </ThemedText>
+        <ThemedText>
+          Ekleme yaptım.(ThemedText)
+        </ThemedText>
+        <Text>
+          Text from react-native
+        </Text>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
